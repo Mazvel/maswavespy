@@ -1,0 +1,5 @@
+﻿record_id,site,profile,file_name,header_lines,n,direction,dx,x1
+r1,Oysand,P1,Data/Oysand_dx_2m_x1_10m_forward.dat,5,24,forward,2,10
+r2,Oysand,P1,Data/Oysand_dx_2m_x1_15m_forward.dat,5,24,forward,2,15
+r3,Oysand,P1,Data/Oysand_dx_2m_x1_20m_forward.dat,5,24,forward,2,20
+r4,Oysand,P1,Data/Oysand_dx_2m_x1_30m_forward.dat,5,24,forward,2,30

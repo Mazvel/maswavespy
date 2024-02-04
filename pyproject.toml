@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "Cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maswavespy"
+version = "1.0.0"
+authors = [
+  { name="Elin Asta Olafsdottir", email="elinasta@hi.is" }
+]
+description = "MASWavesPy, a Python package for processing and inverting MASW data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "build >= 1.0, < 2",
+  "certifi",
+  "charset-normalizer",
+  "contourpy",
+  "cycler",
+  "Cython >= 3.0, < 4",
+  "decorator",
+  "fonttools",
+  "idna",
+  "kiwisolver",
+  "lxml",
+  "matplotlib >= 3.5, < 4",
+  "numpy >= 1.0, < 2",
+  "obspy",
+  "packaging",
+  "pandas >= 2.0, < 3",
+  "Pillow",
+  "pyparsing",
+  "pyproject_hooks",
+  "python-dateutil",
+  "pytz",
+  "requests",
+  "scipy >= 1.0, < 2",
+  "six",
+  "SQLAlchemy",
+  "tk",
+  "typing_extensions",
+  "tzdata",
+  "urllib3"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/Mazvel/maswavespy"
+"Bug Tracker" = "https://github.com/Mazvel/maswavespy/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.cibuildwheel]
+skip = ["pp*", "*i686"]
