@@ -35,7 +35,7 @@ A more comprehensive description is provided in (5).
 ### Referencing MASWavesPy
 Referencing the MASWavesPy package and a paper related to its development is highly appreciated. 
 
-> Olafsdottir, E.A., Bessason, B., Erlingsson, S., Kaynia, A.M. A Tool for Processing and Inversion of MASW Data and a Study of Inter-Session Variability of MASW. Submitted to _Geotechnical Testing Journal_ (in review).
+> Olafsdottir, E.A., Bessason, B., Erlingsson, S., Kaynia, A.M. (2024). A Tool for Processing and Inversion of MASW Data and a Study of Inter-Session Variability of MASW. Accepted for publication in _Geotechnical Testing Journal_ (in press).
 
 ### License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -55,7 +55,7 @@ This work was supported by the Icelandic Research Fund [grant numbers 206793-052
 > 
 > (4) Olafsdottir, E.A., Erlingsson, S., Bessason, B. (2020). Open-Source MASW Inversion Tool Aimed at Shear Wave Velocity Profiling for Soil Site Explorations, _Geosciences_, 10(8), 322. [https://doi.org/10.3390/geosciences10080322](https://doi.org/10.3390/geosciences10080322)
 > 
-> (5) Olafsdottir, E.A., Bessason, B., Erlingsson, S., Kaynia, A.M. A Tool for Processing and Inversion of MASW Data and a Study of Inter-Session Variability of MASW. Submitted to _Geotechnical Testing Journal_ (in review).
+> (5) Olafsdottir, E.A., Bessason, B., Erlingsson, S., Kaynia, A.M. (2024). A Tool for Processing and Inversion of MASW Data and a Study of Inter-Session Variability of MASW. Accepted for publication in _Geotechnical Testing Journal_ (in press).
 
 ## Installation
 A [Quick Start Guide](#quick-start-guide) describing the recommended workflow for Windows users is provided below.
